@@ -1,0 +1,187 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+/*import serve para importar fontes do google fonts, para isso você deve escolher uma fonte clicar no "+" para adicionar uma fonte e clicar em "import" dentro do site e copiar o link, é só joga-lo aqui depois e jogar a propriedade "font-family" onde você quiser aplicar o texto*/
+*{
+        box-sizing:border-box;  /*  Box-sizing é usado para não deixar espaço de margens na página e o esteristico serve para indicar que todos os elementos da página recebem algum atributo (margem, cor, etc..)*/
+}
+
+
+html, body{
+    width:100%;   /*largura da página*/
+    height:100%;  /*tamanho da página*/
+    font-family: 'Patrick Hand', cursive; /*fonte do texto*/
+
+}
+
+
+header {
+    position:fixed;
+    height:100px;
+    width:100%;
+    background-color: black; /*cor de fundo do cabeçalho*/
+    z-index:10;
+}
+
+footer {
+    height:100px;
+    width:100%;
+    background-color: black; /*cor de fundo do rodapé*/
+}
+#logotipo{
+    height:60px;
+    width:60px;
+    margin:0px;  /*tamanho da margem*/
+}
+h1{
+    top:-40px;
+    font-size:30px;
+    font-family:arial;
+}
+
+li.navbar a{
+    text-decoration: none;
+}
+
+#menu-nav li{
+    margin-top:-90px;
+}
+
+#menu-nav li a{
+    padding-left:180px;
+}
+
+#menu .texto-menu{
+	margin:0px;
+}
+
+.texto-banner{
+    font-family:arial;
+    position:absolute;
+    margin-top:200px;
+    margin-left:50px;
+    text-decoration: none;
+}
+#menu ul, li, a {
+    display:inline-block;   /*display serve para desabilitar a bolinha na frente do texto (como se fosse uma lista)*/
+    margin:0px 15px 0px 10px;
+    margin-top:15px;
+    font-size:20px; /*tamanho da fonte do menu (início e contato)*/
+    font-family:times new roman;
+    font-weight:bold;
+    color:white;
+}
+
+#menu a.texto-menu{
+    float:right;
+    margin-top:-60px;
+}
+#socials a.icone1{
+    font-size:30px; /*tamanho dos ícones de redes sociais*/
+}
+
+/*barra de pesquisa*/
+
+.procurar{
+    width:300px;
+    z-index:9; /*serve para colocar um elemento na frente do outro*/
+    margin:110px 10px 0px 10px;
+    float:right;
+}
+
+.banner{
+    position:relative;  /*position relative serve para alinhar o banner de acordo com o item que está acima dele na página (por exemplo o menu para não ficar na frente impedindo o usuário de mexer no menu)*/
+    width:100%; /*largura do banner*/
+    margin-top:100px;
+    z-index:-1  ;
+}
+
+#text-1 p{
+    position:absolute;
+    font-weight:bold;       /*font-weight serve para deixar a fonte em negrito*/
+    margin-top:60px;    /*distância da altura do texto*/
+}
+
+.imagem2{
+    float:center; /*float serve para colocar um elemento a esquerda, no centro ou a direita da página*/
+}
+
+#copyright {
+    position:absolute; /*position absolute tem uma importancia maior que o "position relative" ele serve para colocar o elemente da página onde você quiser*/
+    height:30px;
+    font-size:15px; /*tamanho da fonte*/
+    margin-top:20px; 
+    margin-left: 10px; /*distância da margem esquerda*/
+    color:#666; /*cor da fonte*/
+   
+}
+
+/*CSS DA PÁGINA FORMULÁRIO*/
+
+
+#formulario-box{
+    margin-top:0px;
+
+}
+.caixa{
+    margin-left:0px;
+    height:20px;
+    width:30px;
+    
+}
+
+button{
+    text-align: center; /*serve para alinha o texto do site no centro*/
+    height:30px;
+}
+.botao-nav{
+    background:none;
+    color:white;
+    border:none;
+}
+.botao{    /*margem esquerda e superior "do botão azul no formulário"*/
+    margin-left:-0px;
+    margin-top:10px;
+}
+button p{
+    margin-top:-5px;
+}
+#socials i{
+    margin-top:30px; /*margem de tudo que está dentro do rodapé da página*/
+}
+
+.formulario{
+    margin-top:150px;
+}
+
+.info{
+    margin-left:500px;
+}
+
+.text{
+    margin-top:15px;
+}
+
+
+a.icone1{
+    position:relative;
+    height:1px;
+}
+
+a.icone2{
+    margin:0px;
+}
+
+.efeito{
+    font-family:times new roman;
+    font-size:5em;
+    color:white;
+    transition: 1s;
+    border-radius:10px solid black;
+    background-color:black;
+}
+
+.efeito1{
+    color:red;
+    transition:1s;
+    background:none;
+}
