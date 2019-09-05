@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Nádson Nonato(Portfólio)</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
+    integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="#"><img src="imagens/avatar.png" id="logotipo"></a>
+            <!-- tag para inserir a imagem do logotipo do site (avatar)-->
+            <div>
+                <nav id="menu">
+                    <ul class="float-right">
+                        <li>
+                            <a href="#" class="texto-menu">Início</a>
+                        </li>
+                        <li>
+                            <a href="#Contato" class="texto-menu">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <h1 id="titulo" class="texto-banner"></h1>
+    <img src="imagens/sl1.jpg" class="banner">
+    <!--banner da página-->
+
+    <div class="container">
+        <div class="col-md-12">
+            <p id="#text-1">
+                <hr> <!-- linha antes e depois dos textos-->
+                <h2 class="text-center">Perfil</h2>
+                <hr>
+                Profissional com experiência á mais de 10 anos na área de logística, atualmente estudando Técnico em
+                Informática para enriquecer o currículo no mercado de trabalho.
+                Tenho como características bom senso em organizações, responsabilidade e espírito de trabalho em equipe.
+                Viso obter conhecimentos teóricos e práticos para meu desenvolvimento pessoal, com foco nos objetivos da
+                empresa, na qual me contratar como profissional.
+            </p>
+        </div>
+        <div class="container text-center">
+            <img src="imagens/foto.jpg" class="img-fluid">
+            <!--primeira imagem do site (Banner da primeira página), a classe img-fluid é do bootstrap serve para deixar as imagens responsivas de acordo com o tamanho da tela-->
+        </div>
+        <div class="container">
+            <hr>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col-md-12">
+            <p id="#text-1">
+                <h2 class="text-center">Experiências</h2>
+                <hr> <!-- linha antes e depois dos textos-->
+                A minha experiência profissional permite focar a minha atenção na capacidade de realizar atividades da
+                área de TI, envolvendo Assistente de Operação de redes de computadores, Assistente de suporte e
+                manutenção de computadores.
+                No qual consiste em planejar e executar a montagem de computadores;
+                Planejar e executar a instalação de hardware e software para computadores;
+                Planejar e executar a manutenção de computadores;
+                Planejar e executar a instalação de redes locais de computadores;
+                Planejar e executar a manutenção de redes locais de computadores;
+                Planejar e executar a instalação, configuração e o monitoramento de sistemas operacionais de redes
+                locais (servidores).
+                O meu trabalho consisti na interação de todos os níveis da organização para um melhor desempenho de
+                atividades e resultados.
+            </p>
+        </div>
+
+        <div class="container text-center">
+            <img src="imagens/foto02.jpg" class="img-fluid imagem2">
+            <!--primeira imagem do site (Banner da primeira página), a classe img-fluid é do bootstrap serve para deixar as imagens responsivas de acordo com o tamanho da tela-->
+        </div>
+
+        <div class="col-md-12">
+            <hr>
+            <h2 class="text-center">Habilidades</h2>
+            <p id="#text-1">
+                <hr>
+                Trabalho com manutenção de computadores, desde a parte de formatação, instalação de programas e
+                configurações do mesmo.
+                <br><br>
+            </p>
+        </div>
+        <div class="container">
+        </div>
+    </div>
+
+    <div class="container" id="formulario-box">
+        <div class="row">
+            <section id="Contato"></section>
+            <div class="col-md-12">
+
+                <br><br>
+                <h2 class="text-center">Fale Comigo:</h2><br>
+                <!--entre h1 e h6 você pode usar para escrever um título, dependendo do "H" que você escolher o tamanho do título vai mudar-->
+
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Informe seu nome</label>
+                        <input class="form-control" id="exampleFormControlInput1" placeholder="informe seu nome aqui">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Informe seu endereço</label>
+                        <input class="form-control" id="exampleFormControlInput1" placeholder="informe seu endereço aqui">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Informe seu e-mail</label>
+                      <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nome@exemplo.com">
+                     
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Informe seu telefone</label>
+                        <input class="form-control" id="exampleFormControlInput1" placeholder="(00) 0000-0000">
+                      </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
+                    </div>                   
+                    <button type="submit" class="btn btn-primary float-left botao"
+                        botao id="enviar">
+                        <p>enviar</p>
+                    </button>
+
+                  </form>
+            </div>
+        </div>
+    </div>
+
+    <footer id="socials">
+        <a href="#" class="icone1 float-right"><i class="fa fa-chevron-up" area-hidden="true" id="page-up"></i></a>
+        <!--esse link é o do icone chevron que serve para levar o usuário de volta ao topo da página quando clicar no ícone-->
+        <div class="float-right">
+
+            <a href="https://www.facebook.com/nadson.nonato.3" target="_blank" class="icone1"><i
+             class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/n%C3%A1dson-nonato-07ab1b146" target="_blank" class="icone1"><i
+            class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        </div>
+        
+        <p id="copyright" class="rodape1">created by Nádson Pontes in 2019.<p>
+    </footer>
+
+    <script type="text/javascript" src="jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
